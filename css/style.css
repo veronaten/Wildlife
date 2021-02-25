@@ -8,6 +8,7 @@
   height: 779px;
   padding: 19px 0px 240px 0px;
   background: url(../img/Main_bg.jpg) center center/cover no-repeat;
+  background-color: #02160b;
 }
 
 .container {
@@ -142,6 +143,30 @@ button.donate:active {
   background: #9c4f21;
   color: #F7F7F7;
   transition: all 0.3s ease-in;
+}
+
+main {
+  padding: 121px 0 240px 0;
+  background-color: #cccccc;
+}
+
+.articles h2 {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  color: #333333;
+}
+
+.articles .subheader {
+  margin-top: 20px;
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #666666;
 }
 
 
