@@ -18,18 +18,20 @@
 header {
   display: flex;
   justify-content: space-between;
+  height: 60px;
 }
 
 .logo img {
   position: relative;
+  margin-top: -10px;
   width: 60px;
   height: 70px;
 }
 
 .logo_text {
   position: absolute;
-  left: 130px;
-  top: 40px;
+  left: 145px; 
+  top: 30px;
   font-size: 32px;
   font-weight: 400;
   font-family: Roboto;
@@ -39,10 +41,107 @@ header {
 
 ul {
   display: flex;
-  justify-content: center;
+  width: 480px;
+  justify-content: space-between;
 }
 
 li {
+  margin-top: 15px;
   display: block;
 }
+
+ul li a {
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 23px;
+  color: #F7F7F7;
+  text-decoration: none;
+}
+
+a .li_img {
+  width: 32px;
+  height: 32px;
+}
+
+li button.sign {
+  margin-top: -10px;
+  width: 120px;
+  height: 50px;
+  border: 2px solid #CD6326;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0);
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 23px;
+  align-items: center;
+  text-align: center;
+  color: #F7F7F7;
+  cursor: pointer;
+}
+
+li button.sign:hover,
+li button.sign:focus {
+  background: #CD6326;
+  color: #F7F7F7;
+  transition: all 0.5s ease-in;
+}
+
+li button.sign:active {
+  background: #9c4f21;
+  color: #F7F7F7;
+  transition: all 0.3s ease-in;
+  border: none;
+}
+
+.survival h1 {
+  margin-top: 120px;
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 2px;
+  color: #CD6326;
+}
+
+div .survival_text {
+  margin-top: 51px;
+  width: 250px;
+  height: 108px;
+  font-family: Open Sans;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #F7F7F7;
+}
+
+button.donate {
+  margin-top: 49px;
+  width: 160px;
+  height: 60px;
+  background: #CD6326;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  color: #F7F7F7;
+  border: none;
+  cursor: pointer;
+}
+
+button.donate:hover,
+button.donate:focus {
+  background: #f56817;
+  color: #F7F7F7;
+  transition: all 0.3s ease-in;
+}
+
+button.donate:active {
+  background: #9c4f21;
+  color: #F7F7F7;
+  transition: all 0.3s ease-in;
+}
+
 
