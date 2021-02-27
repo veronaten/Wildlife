@@ -19,7 +19,6 @@
 header {
   display: flex;
   justify-content: space-between;
-  /* height: 60px; */
 }
 
 .logo img {
@@ -35,7 +34,7 @@ header {
   top: 30px;
   font-size: 32px;
   font-weight: 400;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   color: #F7F7F7;
   text-transform: uppercase;
 }
@@ -52,11 +51,15 @@ li {
 }
 
 ul li a {
-  font-family: Open Sans;
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 23px;
   color: #F7F7F7;
   text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline
 }
 
 a .li_img {
@@ -72,7 +75,7 @@ li button.sign {
   box-sizing: border-box;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0);
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 23px;
   align-items: center;
@@ -97,8 +100,8 @@ li button.sign:active {
 
 .survival h1 {
   margin-top: 120px;
-  font-family: Open Sans;
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 48px;
   line-height: 72px;
   letter-spacing: 2px;
@@ -107,10 +110,10 @@ li button.sign:active {
 
 div .survival_text {
   margin-top: 51px;
-  width: 250px;
+  width: 272px;
   height: 108px;
-  font-family: Open Sans;
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 18px;
   line-height: 27px;
   color: #F7F7F7;
@@ -122,8 +125,7 @@ button.donate {
   height: 60px;
   background: #CD6326;
   border-radius: 5px;
-  font-family: Roboto;
-  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
   font-size: 23px;
   line-height: 27px;
   text-align: center;
@@ -151,8 +153,8 @@ main {
 }
 
 .articles h2 {
-  font-family: Open Sans;
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 48px;
   line-height: 72px;
   text-align: center;
@@ -161,8 +163,8 @@ main {
 
 .articles .subheader {
   margin-top: 20px;
-  font-family: Open Sans;
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 24px;
   line-height: 36px;
   text-align: center;
@@ -182,8 +184,8 @@ main {
 }
 
 .slider_img h4 {
-  font-family: Open Sans;
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 22px;
   line-height: 36px;
   text-align: center;
@@ -192,8 +194,8 @@ main {
 
 .slider_img .slider_text {
   margin-top: 10px;
-  font-family: Open Sans;
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 17px;
   line-height: 27px;
   text-align: center;
@@ -228,8 +230,8 @@ button.slider_left, button.slider_right {
 
 .notification h3 {
   margin-top: 239px;
-  font-family: Open Sans;
-  font-weight: normal;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   font-size: 27px;
   line-height: 40px;
   text-align: center;
@@ -268,8 +270,7 @@ form {
   background: #CD6326;
   border: 1px solid #CD6326;
   border-radius: 0px 5px 5px 0px;
-  font-family: Roboto;
-  font-weight: normal;
+  font-family: 'Roboto', sans-serif;
   font-size: 23px;
   line-height: 27px;
   align-items: center;
@@ -295,6 +296,7 @@ footer {
   height: 359px;
   padding: 150px 0 149px 0;
   background: url(../img/Footer_bg.jpg) center center/cover no-repeat;
+  background-color: #181617
 }
 
 .footer_info {
@@ -313,7 +315,7 @@ footer {
   top: 11px;
   font-size: 32px;
   font-weight: 400;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   color: #F7F7F7;
   text-transform: uppercase;
 }
