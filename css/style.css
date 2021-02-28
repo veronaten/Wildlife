@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body .wrapper {
+  width: 1440px;
+}
+
 .fox {
   height: 779px;
   padding: 19px 0px 240px 0px;
@@ -23,14 +27,14 @@ header {
 
 .logo img {
   position: relative;
-  margin-top: -10px;
-  width: 60px;
-  height: 70px;
+  margin-top: -3px;
+  width: 70px;
+  height: 60px;
 }
 
 .logo_text {
   position: absolute;
-  left: 145px; 
+  left: 203px;
   top: 30px;
   font-size: 32px;
   font-weight: 400;
@@ -187,7 +191,7 @@ main {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 22px;
-  line-height: 36px;
+  line-height: 29px;
   text-align: center;
   color: #F7F7F7;
 }
@@ -204,19 +208,19 @@ main {
 
 .slider_block_deer {
   position: absolute;
-  left: 210px;
+  left: 267px;
   top: 1400px;
 }
 
 .slider_block_squirrel {
   position: absolute;
-  left: 580px;
+  left: 645px;
   top: 1400px;
 }
 
 .slider_block_bird {
   position: absolute;
-  left: 960px;
+  left: 1018px;
   top: 1400px;
 }
 
@@ -311,7 +315,7 @@ footer {
 
 .footer_logo_text {
   position: absolute;
-  left: 75px; 
+  left: 86px; 
   top: 11px;
   font-size: 32px;
   font-weight: 400;
